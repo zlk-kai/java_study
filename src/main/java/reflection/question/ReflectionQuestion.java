@@ -2,10 +2,7 @@ package reflection.question;
 
 
 import java.io.FileInputStream;
-import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.Objects;
 import java.util.Properties;
 
 @SuppressWarnings("all")
