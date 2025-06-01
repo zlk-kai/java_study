@@ -21,6 +21,7 @@ public class FileCopy_ {
             System.out.println(readlen);
             fos.write(buf, 0, readlen);
         }
+        fos.flush();//刷新
         fos.close();
         fis.close();
 
