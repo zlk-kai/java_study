@@ -1,8 +1,6 @@
 package IOStream_.reader_;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
 
 @SuppressWarnings("all")
 public class FileReader_ {

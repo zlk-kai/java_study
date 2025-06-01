@@ -34,9 +34,10 @@ public class FileWriter_ {
         }finally {
             //对于对象一定要关闭流，或者flush，才能真正的把数据写入到文件
             //fileWriter.close();
-            fileWriter.flush();
+            //fileWriter.flush();
             fileWriter.close();
         }
+
         System.out.println("jieshu");
 
     }
