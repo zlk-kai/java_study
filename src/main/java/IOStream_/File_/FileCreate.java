@@ -14,7 +14,7 @@ public class FileCreate {
     }
     //1.创建文件
     public static void create01(){
-        String filepath = "/Users/zlk/Develop/java_study/src/main/java/IOStream_/File_/test01.text";
+        String filepath = "D:\\Develop\\IdeaProjects\\java_study\\src\\main\\java\\IOStream_\\File_\\test01.text";
         File file1 = new File(filepath);
         try {
             file1.createNewFile();
@@ -27,7 +27,7 @@ public class FileCreate {
     }
     //2.创建文件，组合文件路径
     public static void create02(){
-        File file = new File("/Users/zlk/Develop/java_study/src/main/java/IOStream_/File_");
+        File file = new File("D:\\Develop\\IdeaProjects\\java_study\\src\\main\\java\\IOStream_\\File_");
         String filename = "test02.txt";
         //组合文件路径，传入两个对象参数
         File file2 = new File(file, filename);
@@ -42,9 +42,9 @@ public class FileCreate {
     }
     //3.根据父目录+子目录构建
     public static void create03(){
-        String parentPath = "/Users/zlk/Develop/java_study";
+        String parentPath = "D:\\Develop\\IdeaProjects\\java_study";
         String childPath = "";
-        String filename = "/src/main/java/IOStream_/File_/test03.text";
+        String filename = "\\src\\main\\java\\IOStream_\\File_\\test03.txt";
         File file3 = new File(parentPath, filename);
         try {
             file3.createNewFile();

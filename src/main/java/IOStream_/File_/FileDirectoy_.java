@@ -13,7 +13,7 @@ public class FileDirectoy_{
     }
     //判断文件是否存在，如果存在则删除
     public static void m1() throws IOException {
-        String filepath = "/Users/zlk/Develop/java_study/src/main/java/IOStream_/File_/test03.text";
+        String filepath = "/Users/zlk/Develop/java_study/src/main/java/IOStream_/File_/txt03.text";
         File file = new File(filepath);
         if(file.exists()){
             if(file.delete()){
