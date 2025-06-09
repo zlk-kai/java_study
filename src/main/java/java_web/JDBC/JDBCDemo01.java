@@ -1,4 +1,4 @@
-package java_web;
+package java_web.JDBC;
 
 import java.sql.*;
 import java.util.Scanner;

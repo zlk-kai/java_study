@@ -1,10 +1,9 @@
-package java_web;
+package java_web.JDBC;
 
-import java_web.tools.DBUtils;
-import java_web.tools.ScannerUtils;
+import java_web.JDBC.tools.DBUtils;
+import java_web.JDBC.tools.ScannerUtils;
 
 import java.sql.*;
-import java.util.Scanner;
 
 /**
  * @author 张林凯

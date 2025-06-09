@@ -1,4 +1,4 @@
-package java_web.tools;
+package java_web.JDBC.tools;
 
 import java.util.Scanner;
 
