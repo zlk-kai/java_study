@@ -2,10 +2,30 @@
 <!DOCTYPE configuration
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--文档类型-->
+<!--就是配置文件的根结点-->
 <configuration>
+<!--  数据库环境配置，可配置多个数据库环境
+        default默认的数据库环境
+  -->
     <environments default="development">
+        <!-- environment  配置数据库环境。
+            id 指定当前数据库环境的唯一标识，
+            会被父节点default所设置
+        -->
         <environment id="development">
+            <!--  事物管理类型
+            type有两个值。
+            JDBC 使用JDBC的事物管理
+            MANAGED  不运行事物
+              -->
             <transactionManager type="JDBC"/>
+            <!--  数据源。
+                   type 指定链接池
+                   POOLED 指定使用mybatis的链接池
+                   UNPPOOLED 不使用连接池
+                   JNDI 可以在tomcat中使用
+            -->
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql://192.168.1.10:3306/mybatis_study"/>
